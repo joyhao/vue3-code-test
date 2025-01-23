@@ -1,0 +1,19 @@
+{
+  "name": "vue3-kit",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/dev.js reactivity -f esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "minimist": "^1.2.8",
+    "typescript": "^5.7.2"
+  }
+}

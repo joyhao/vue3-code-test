@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test ref</title>
+</head>
+
+<body>
+  <article id="app"></article>
+</body>
+<script type="module">
+  import { reactive, effect, ref } from "./reactivity.js"
+  const flag = ref({})
+
+  const app = document.querySelector('#app')
+
+
+  console.log(flag.value);
+
+  // effect(() => {
+  //   app.innerHTML = state.addrss.n
+
+  // })
+
+
+
+
+  // setTimeout(() => {
+  //   state.addrss.n = 602
+  // }, 1000)
+</script>
+
+</html>
